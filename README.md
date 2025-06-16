@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# Panel Scan – Solar Panel Degradation Predictor
 
-## Project info
+A modern web application for monitoring and predicting solar panel degradation using image uploads, interactive dashboards, and a beautiful, responsive UI.
 
-**URL**: https://lovable.dev/projects/f8d1f4d3-c389-4cb8-b3ad-f792ad13a74e
+---
 
-## How can I edit this code?
+## 🌞 Project Overview
 
-There are several ways of editing your application.
+Solar panels are susceptible to microcracks, soiling, and other types of degradation, which reduce their efficiency over time. Manual inspections are slow and expensive. **Panel Scan** provides an intuitive platform for uploading panel images, analyzing their health status, and visualizing trends—empowering proactive maintenance and faster decision-making.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f8d1f4d3-c389-4cb8-b3ad-f792ad13a74e) and start prompting.
+## 🧩 Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Image Upload & Analysis:**  
+  Upload panel images (including drone-captured or thermal images). The application processes these images and delivers instant health assessments and recommendations.
 
-**Use your preferred IDE**
+- **Interactive Dashboard:**  
+  View real-time results and analytics on a modern dashboard with charts, progress bars, and summary cards.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Result Storage:**  
+  Analysis results and image data are stored locally in the browser for session continuity and easy reporting.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Modern UI/UX:**  
+  Clean, responsive, and accessible interface built with React, shadcn-ui, and Tailwind CSS.
 
-Follow these steps:
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**
+  - [React](https://react.dev/) – UI library for building interactive interfaces
+  - [TypeScript](https://www.typescriptlang.org/) – Static type safety
+  - [Vite](https://vitejs.dev/) – Lightning-fast build tool
+  - [shadcn-ui](https://ui.shadcn.com/) – Accessible component library
+  - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+  - [Radix UI](https://www.radix-ui.com/) – Unstyled, accessible component primitives
+  - [Recharts](https://recharts.org/) – Data visualizations and charts
+  - [Lucide-react](https://lucide.dev/) – Icon library
+
+- **State & Routing**
+  - React hooks & localStorage for state management and persistence
+  - [react-router-dom](https://reactrouter.com/) for client-side routing
+
+- **DevOps/Deployment**
+  - [Vercel](https://vercel.com/) for instant deployments
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) & npm (use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) recommended)
+
+### Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+git clone https://github.com/KOPPADAPRUDHVI/Panel_Scan.git
+cd Panel_Scan
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🖼️ Usage
 
-**Use GitHub Codespaces**
+1. **Upload**: Go to the upload page and submit your panel image.
+2. **Analyze**: The app processes the image and predicts panel health status (e.g., Healthy, Moderate Issues, Severe Damage).
+3. **Results**: Get a detailed breakdown of detected issues, confidence scores, and recommendations.
+4. **Reports**: Access historical analysis and analytic charts over time.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📦 Deployment
 
-This project is built with:
+- **Vercel**: Main branch is deployed to [panel-scan.vercel.app](https://panel-scan.vercel.app)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/f8d1f4d3-c389-4cb8-b3ad-f792ad13a74e) and click on Share -> Publish.
+## 📄 License
 
-## Can I connect a custom domain to my Lovable project?
+This project is for demonstration and educational purposes.  
+Contact the owner for commercial use or licensing questions.
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
